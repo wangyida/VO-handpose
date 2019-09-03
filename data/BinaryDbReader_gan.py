@@ -78,7 +78,7 @@ class BinaryDbReader(object):
             self.path_to_db = '/home/gaoyafei/original/handobj_worked/data/handobj_train.bin'
             self.num_samples = 11020
         if mode == 'evaluation_org':
-            self.path_to_db = '/home/gaoyafei/original/handobj_worked/data/handobj_train.bin'
+            self.path_to_db = '/home/gaoyafei/original/handobj_worked/data/handobj_test.bin'
             self.num_samples = 800
         
         if mode == 'training_gan':
