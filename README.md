@@ -1,9 +1,9 @@
 # Variational Object-aware 3D Hand Pose from a Single RGB Image
+[![VO-handpose](https://youtu.be/tSTQ2NTqB4A/0.jpg)](https://youtu.be/tSTQ2NTqB4A)
 
 The implementation of our paper accepted in **IROS** 2019 - *also included in IEEE Robotics and Automation Letters*
 **[Yafei Gao](https://www.linkedin.com/in/yafei-gao-0900a0131/?originalSubdomain=de), [Yida Wang](https://wangyida.github.io/#about), [Nassir Navab](http://campar.in.tum.de/Main/NassirNavab) and [Federico Tombari](http://campar.in.tum.de/Main/FedericoTombari)**.
 If you find this work useful in yourr research, please cite:
-[![VO-handpose](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/tSTQ2NTqB4A)
 
 
 ```bash
