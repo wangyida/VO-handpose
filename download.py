@@ -36,8 +36,7 @@ def download_file(url, out_file):
 def main():
     parser = argparse.ArgumentParser(description='Downloads 3D Synth Grasping Hand Dataset.')
     parser.add_argument('-o', '--out_dir', required=True, help='directory in which to download')
-    parser.add_argument('--id', help='specific scan id to download')
-    parser.add_argument('--type', help='specific file type to download')
+    print("You are downloading SynGraspHand Dataset which requires 1.7GB of space.")
     args = parser.parse_args()
     download_file(BASE_URL + '/SynGraspHand.zip', args.out_dir + '/SynGraspHand.zip')
     print("SynGraspHand Dataset downloaded")
