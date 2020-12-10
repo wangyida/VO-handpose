@@ -2,6 +2,7 @@
 ![VO-handpose](images/vo-hand.png)
 
 The implementation of our paper accepted in **IROS** 2019 - *jointly presented in IEEE Robotics and Automation Letters*
+
 Authors: [Yafei Gao](https://www.linkedin.com/in/yafei-gao-0900a0131/?originalSubdomain=de), [Yida Wang](https://wangyida.github.io), [Nassir Navab](http://campar.in.tum.de/Main/NassirNavab) and [Federico Tombari](http://campar.in.tum.de/Main/FedericoTombari)
 
 ## Dataset
@@ -25,7 +26,7 @@ Both files are located in the root folder.
 
 You can find download.py from [here](https://github.com/wangyida/VO-handpose/blob/master/download.py),  then run it under your data folder:
 
-```bash
+```python
 python download.py -o ./<DATA FOLDER>/
 ```
 
