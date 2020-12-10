@@ -21,7 +21,7 @@ If you find this work useful in yourr research, please cite:
 
 ## Dataset
 This dataset provides 11020 samples. Each sample provides:
-* RGB image (320x320 pixels); 
++ RGB image (320x320 pixels); 
 + Segmentation mask (320x320 pixels) for hand
 + Segmentation mask (320x320 pixels) for object 
 + 21 Keypoints for hand with their uv coordinates in the image frame and their xyz coordinates in the camera coordinate system
@@ -44,9 +44,9 @@ python download.py -o ./<DATA FOLDER>/
 
 ### File structures
 ```bash
-./ 			        : Root folder
-./color			    : Color images
-./mask_hand		    : Segmentation masks for hand
+./ 			: Root folder
+./color			: Color images
+./mask_hand		: Segmentation masks for hand
 ./mask_object		: Segmentation masks for object
 ./annotation.mat	: Key point annotations and camera matrices
 ```
