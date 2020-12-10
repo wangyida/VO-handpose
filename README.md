@@ -21,11 +21,15 @@ If you find this work useful in yourr research, please cite:
 
 ## Dataset
 This dataset provides 11020 samples. Each sample provides:
+
+```bash
 + RGB image (320x320 pixels); 
 + Segmentation mask (320x320 pixels) for hand
 + Segmentation mask (320x320 pixels) for object 
 + 21 Keypoints for hand with their uv coordinates in the image frame and their xyz coordinates in the camera coordinate system
 + Intrinsic Camera Matrix
+```
+
 
 It was created with freely accessible character from *MakeHuman* and rendered with [Blender](www.blender.org)
 
@@ -51,4 +55,4 @@ python download.py -o ./<DATA FOLDER>/
 ./annotation.mat	: Key point annotations and camera matrices
 ```
 ### Contact
-Converning questions regarding to our dataset, please contact Yafei Gao (yafei.gao@tum.de)
+Converning questions regarding to our dataset, please contact Yafei Gao (yafei.gao@gmx.de)
