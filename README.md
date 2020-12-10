@@ -3,7 +3,7 @@
 
 The implementation of our paper accepted in **IROS** 2019 - *also included in IEEE Robotics and Automation Letters*
 **[Yafei Gao](https://www.linkedin.com/in/yafei-gao-0900a0131/?originalSubdomain=de), [Yida Wang](https://wangyida.github.io/#about), [Nassir Navab](http://campar.in.tum.de/Main/NassirNavab) and [Federico Tombari](http://campar.in.tum.de/Main/FedericoTombari)**.
-If you find this work useful in yourr research, please cite:
+If you find this work useful in your research, please cite:
 
 
 ```bash
