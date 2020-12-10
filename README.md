@@ -34,13 +34,21 @@ The dataset ships with minimal examples, that browse the dataset and show sample
 There is one example for Phython and one for MATLAB users, both functionalities are identical.
 Both files are located in the root folder.
 
+### Download
+
+You can find download.py from [here](https://github.com/wangyida/VO-handpose/blob/master/download.py),  then run it under your data folder:
+
+```bash
+python download.py -o ./<DATA FOLDER>/
+```
+
 ### File structures
 ```bash
-./ 			: Root folder
-./color			: Color images
-./mask_hand		: Segmentation masks for hand
+./ 			        : Root folder
+./color			    : Color images
+./mask_hand		    : Segmentation masks for hand
 ./mask_object		: Segmentation masks for object
-./annotation.mat	: Data structure for MATLAB use containing keypoint annotations and camera matrices
+./annotation.mat	: Key point annotations and camera matrices
 ```
 ### Contact
 Converning questions regarding to our dataset, please contact Yafei Gao (yafei.gao@tum.de)
